@@ -1,0 +1,31 @@
+html {
+  box-sizing: border-box;
+  height: 100%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  height: inherit;
+  align-items: center;
+}
+
+.container {
+  background-color: aqua;
+  border: 1px solid black;
+  border-radius: 16px;
+  width: 400px;
+  height: 550px;
+}
+
+.calc-button-row {
+  display: flex;
+  justify-content: space-between;
+  margin: 5% 0;
+}
