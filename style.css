@@ -26,6 +26,15 @@ body {
 
 .calc-button-row {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   margin: 5% 0;
+}
+
+.calc-button {
+  width: 10%;
+}
+
+.button-hasil,
+.button-1k {
+  width: 30%;
 }
