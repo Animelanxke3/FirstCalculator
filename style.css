@@ -28,9 +28,18 @@ h3 {
   width: 90%;
   height: 60%;
   margin: 60px auto;
+  gap: 1px;
+  display: grid;
 }
 
 .button-row {
   display: flex;
+  justify-content: space-around;
   flex-basis: 100px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+button {
+  width: 40px;
 }
