@@ -1,40 +1,36 @@
-html {
-  box-sizing: border-box;
-  height: 100%;
-}
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: inherit;
-}
-
 body {
+  height: 100vh;
   display: flex;
   justify-content: center;
-  height: inherit;
   align-items: center;
+  box-sizing: border-box;
 }
 
 .container {
-  background-color: aqua;
-  border: 1px solid black;
-  border-radius: 16px;
-  width: 400px;
-  height: 550px;
+  background-color: aquamarine;
+  width: 300px;
+  height: 460px;
 }
 
-.calc-button-row {
+h3 {
+  text-align: center;
+}
+
+.display {
+  background-color: aliceblue;
+  width: 90%;
+  height: 10%;
+  margin: auto;
+}
+
+.button {
+  background-color: gray;
+  width: 90%;
+  height: 60%;
+  margin: 60px auto;
+}
+
+.button-row {
   display: flex;
-  justify-content: space-around;
-  margin: 5% 0;
-}
-
-.calc-button {
-  width: 10%;
-}
-
-.button-hasil,
-.button-1k {
-  width: 30%;
+  flex-basis: 100px;
 }
